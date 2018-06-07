@@ -1,0 +1,38 @@
+.main-sidebar {
+  height: 100vh;
+  overflow-y: hidden;
+  width: 250px;
+}
+
+.main-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+nav.main-header {
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 250px;
+}
+
+.brand-link {
+    padding: 0.8125rem 0.5rem;
+    font-size: 1.25rem;
+    display: block;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.sidebar {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    overflow-y: auto;
+    height: calc(100% - 4rem);
+}
+
+.sidebar-dark-primary {
+    background-color: #2e323a;
+}
